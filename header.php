@@ -26,6 +26,9 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'useful-bits' ); ?></a>
 
 	<header id="masthead" class="site-header">
+
+
+
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -45,6 +48,8 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
+
+
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'useful-bits' ); ?></button>
 			<?php
@@ -56,4 +61,6 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+
+
 	</header><!-- #masthead -->
