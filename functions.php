@@ -150,7 +150,8 @@ function useful_bits_scripts() {
 	// RLF - load tachyons.css
 	wp_enqueue_style( 'useful-bits-tachyons',  get_template_directory_uri() . '/css/tachyons.css');
 
-	wp_enqueue_script( 'useful-bits-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	// RLF - load main.js
+	wp_enqueue_script( 'useful-bits-main', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
