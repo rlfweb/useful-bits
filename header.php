@@ -29,8 +29,6 @@
 
 <header id="masthead" class="site-header">
 
-	<div class="db bg-red flex justify-between">
-
 			<div class="site-branding">
 				<?php
 				the_custom_logo();
@@ -51,13 +49,13 @@
 
  			</div><!-- .site-branding -->
 
-	<!-- HAMBURGER -->
+	<!-- HAMBURGER MENU -->
 		<a href="#" class="menu-toggle">
 			<img src="<?php bloginfo('template_directory');?>/images/menu-icon.svg" class="menu-toggle">
 		</a>
 
 		<div class="menu">
-			<nav id="site-navigation" class="main-navigation flex">
+			<nav id="site-navigation" class="main-navigation">
 				<?php
 				wp_nav_menu(
 					array(
@@ -69,6 +67,6 @@
 			</nav><!-- #site-navigation -->
 		</div>
 		
-	</div>
+
 
 </header><!-- #masthead -->
