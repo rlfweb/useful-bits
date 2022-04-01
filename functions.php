@@ -141,6 +141,15 @@ function useful_bits_scripts() {
 	wp_enqueue_style( 'useful-bits-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'useful-bits-style', 'rtl', 'replace' );
 
+	// RLF - load base.css
+	wp_enqueue_style( 'useful-bits-base',  get_template_directory_uri() . '/css/base.css');
+
+	// RLF - load custom.css
+	wp_enqueue_style( 'useful-bits-custom',  get_template_directory_uri() . '/css/custom.css');
+
+	// RLF - load tachyons.css
+	wp_enqueue_style( 'useful-bits-tachyons',  get_template_directory_uri() . '/css/tachyons.css');
+
 	wp_enqueue_script( 'useful-bits-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

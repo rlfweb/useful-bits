@@ -1,0 +1,18 @@
+.container {
+    padding: 16px;
+}
+
+.body {
+
+}
+
+/* NAV */
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+ padding-left: 16px;
+}
+
