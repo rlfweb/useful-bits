@@ -46,7 +46,7 @@ $(document).on('scroll', function() {
 
 // CHANGES BACKGROUND COLOUR OF BODY WITH SCROLL
 if (pixelsFromTop < 600) {
-    $('body').css('background-color', '#ffffff')
+    $('body').css('background-color', '#7fffd4')
   } else if (pixelsFromTop < 1400) {
     $('body').css('background-color', '#a29c97')
   } else if (pixelsFromTop < 2200) {
