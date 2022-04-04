@@ -44,8 +44,8 @@
 
  			</div><!-- .site-branding -->
 
-	<!-- HAMBURGER MENU -->
-		<a href="#" class="menu-toggle">
+			 	<!-- HAMBURGER MENU -->
+	<a href="#" class="menu-toggle">
 			<img src="<?php bloginfo('template_directory');?>/images/menu-icon.svg" class="menu-toggle">
 		</a>
 
@@ -62,6 +62,5 @@
 			</nav><!-- #site-navigation -->
 		</div>
 		
-
 
 </header><!-- #masthead -->
