@@ -21,7 +21,7 @@ footer {
 	color: #000000;
 }
 
-/* HAMBURGER MENU */
+/* SLIDE DOWN HAMBURGER MENU */
 
 .menu {
   position: fixed;
@@ -66,4 +66,17 @@ footer {
   font-size: 32px;
   text-decoration: none;
   padding-bottom: 20px;
+}
+
+/* IMAGES */
+
+.wp-post-image {
+  max-width: 1400px;
+  margin-bottom: 48px;
+} 
+
+img:hover {
+  opacity: 0.75;
+  margin-left: auto;
+  margin-right: auto;
 }
